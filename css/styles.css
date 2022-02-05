@@ -163,3 +163,47 @@ body {
   color: var(--accent-text-color);
 }
 /*======= END FOOTER=======*/
+
+/*============PORTFOLIO============*/
+.portfolio-list-btn {
+  color: inherit;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
+  background-color: var(--accent-text-color);
+  color: var(--light-text-color);
+}
+
+.active-portfolio-list-btn {
+  background-color: var(--accent-text-color);
+  color: var(--light-text-color);
+}
+
+.portfolio-list-link {
+  text-decoration: none;
+}
+
+.portfolio-list-title {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list-description {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+}
