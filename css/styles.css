@@ -1,0 +1,87 @@
+:root {
+  --primary-font-family: Roboto, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --light-text-color: #ffffff;
+  --dark-text-color: #000000;
+  --accent-text-color: #2196f3;
+  --primary-background-color: FFFFFF;
+  --secondary-background-color: #e5e5e5;
+  --dark-background-color: #2f303a;
+  --button-hover-color: #188ce8;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.logo-link {
+  color: var(--dark-text-color);
+  font-family: var(--secondary-font-family);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.web {
+  color: var(--accent-text-color);
+}
+/*======= START HEADER =======*/
+.nav-list-link {
+  color: inherit;
+}
+.nav-list-link:hover,
+.nav-list-link:focus,
+.active-page,
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--accent-text-color);
+}
+
+.header-contact-link {
+  color: var(--secondary-text-color);
+}
+/*======= END HEADER =======*/
+/*======= START HERO =======*/
+.hero {
+  background-color: var(--dark-background-color);
+}
+.hero-title {
+  color: var(--light-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  color: var(--light-text-color);
+  background-color: var(--accent-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--button-hover-color);
+}
