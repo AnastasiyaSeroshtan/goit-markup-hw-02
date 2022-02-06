@@ -93,6 +93,11 @@ body {
 /*======= END HERO =======*/
 
 /*======= START BENEFITS =======*/
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
 .benefits-title,
 .activity-title,
 .team-title {
